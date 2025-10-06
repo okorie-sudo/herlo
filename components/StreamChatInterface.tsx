@@ -82,6 +82,9 @@ const StreamChatInterface = ({ otherUser }: { otherUser: UserProfile }) => {
           token
         );
 
+
+        
+
         const { channelType, channelId } = await createOrGetChannel(
           otherUser.id
         );
